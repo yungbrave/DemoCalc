@@ -5,20 +5,26 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
         String expression = scanner.nextLine();
-        String[] splitedExpression = expression.split("\"");
-        String operandFirst = splitedExpression[1];
-        String operandSecond = splitedExpression[3];
-        String operation = splitedExpression[2].substring(1, 2);
+        String[] splitedExpression = expression.split(" ");
+        System.out.println(Arrays.toString(splitedExpression));
+        String operandFirst = splitedExpression[0];
+        String operandSecond = splitedExpression[2];
+        String operation = splitedExpression[1];
         String result = "";
         switch (operation) {
             case "+":
+                operandFirst = operandFirst.substring(1, operandFirst.length() - 1);
+                operandSecond = operandSecond.substring(1, operandSecond.length() - 1);
                 result = operandFirst + operandSecond;
                 break;
             case "-": {
+                operandFirst = operandFirst.substring(1, operandFirst.length() - 1);
+                operandSecond = operandSecond.substring(1, operandSecond.length() - 1);
                 result = operandFirst.replace(operandSecond, "");
                 break;
             }
             case "*": {
+                operandFirst = operandFirst.substring(1, operandFirst.length() - 1);
                 int intValue = Integer.parseInt(operandSecond);
                 if (intValue <= 10 && intValue > 0) {
                     for (int i = 0; i < intValue; i++) {
@@ -30,6 +36,7 @@ public class Main {
                 break;
             }
             case "/": {
+                operandFirst = operandFirst.substring(1, operandFirst.length() - 1);
                 int intValue = Integer.parseInt(operandSecond);
                 if (intValue <= 10 && intValue > 0) {
                     int numberLength = operandFirst.length();
