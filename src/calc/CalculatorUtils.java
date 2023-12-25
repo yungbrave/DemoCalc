@@ -54,5 +54,10 @@ public class CalculatorUtils {
         }
         return operation;
     }
+    public static String removeQuotes(String operand) {
+        String trimmedOperand = operand.trim();
+        return operand.trim().substring(1, trimmedOperand.length() - 1);
+
+    }
 
 }

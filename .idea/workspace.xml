@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32d14cfd-ddf2-4487-901f-6ba59bcbaa7b" name="Changes" comment="improved">
-      <change afterPath="$PROJECT_DIR$/src/calc/CalculatorUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calc/CalculatorUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calc/CalculatorUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
       <workItem from="1703182504392" duration="987000" />
       <workItem from="1703268442118" duration="5648000" />
       <workItem from="1703372785934" duration="15000" />
-      <workItem from="1703528371482" duration="1641000" />
+      <workItem from="1703528371482" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1703182299038</created>
@@ -94,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703277116946</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="improved">
+      <created>1703530124017</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703530124017</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,17 +110,6 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="improved" />
     <option name="LAST_COMMIT_MESSAGE" value="improved" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DemoCalc$Main.ic" NAME="Main Coverage Results" MODIFIED="1703275636644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
